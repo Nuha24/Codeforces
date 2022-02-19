@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-#define ll long long
 using namespace std;
 int main()
 {
@@ -16,5 +15,5 @@ int main()
             f++;
         }
     }
-    cout<<f;
+   cout<<f;
 }
