@@ -1,19 +1,16 @@
 #include<bits/stdc++.h>
+#define ll long long
 using namespace std;
 int main()
 {
-    int s[4],f=0;
-    for(int i=0; i<4; i++)
+    ll n;
+    cin>>n;
+    if(n%2==0)
     {
-        cin>>s[i];
+        cout<<(n/2)<<endl;
     }
-    sort(s,s+4);
-    for(int i=0; i<4; i++)
+    else
     {
-        if(s[i]==s[i+1])
-        {
-            f++;
-        }
+        cout<<-(n+1)/2;
     }
-   cout<<f;
 }
