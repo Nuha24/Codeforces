@@ -1,3 +1,14 @@
+//A-
+#include<bits/stdc++.h>
+using namespace std;
+int main ()
+{
+    string s;
+    cin >> s;
+    cout << "Hello, " << s ;
+    return 0;
+}
+
 //B-
 #include <stdio.h>
 int main ()
@@ -11,6 +22,19 @@ int main ()
     printf("%d \n %lld \n %c \n %f \n %lf");
     return 0;
 }
+
+//C-
+#include<stdio.h>
+int main()
+{
+   long long int X,Y;
+   scanf("%lld %lld",&X,&Y);
+   printf("%lld + %lld = %lld\n",X,Y,(X+Y));
+   printf("%lld * %lld = %lld\n",X,Y,(X*Y));
+   printf("%lld - %lld = %lld\n",X,Y,(X-Y));
+   return 0;
+}
+
 //D-
 #include <stdio.h>
 int main()
@@ -21,6 +45,7 @@ int main()
     printf("Difference = %lld",X);
     return 0;
 }
+
 //E-
 #include <stdio.h>
 int main()
@@ -31,6 +56,7 @@ int main()
     printf("%.9f",Area);
     return 0;
 }
+
 //F-
 #include<stdio.h>
 int main ()
@@ -50,6 +76,7 @@ int main ()
     Sum=N*(N+1)/2;
     printf("%lld", Sum);
 }
+
 //H-
 #include<bits/stdc++.h>
 using namespace std;
@@ -61,6 +88,7 @@ int main ()
     cout<<"ceil "<<a<<" / "<<b<<" = "<<ceil(a/b)<<endl;
     cout<<"round "<<a<<" / "<<b<<" = "<<round(a/b)<<endl;
 }
+
 //I-
 #include<stdio.h>
 int main()
@@ -73,6 +101,7 @@ int main()
         printf("No");
     return 0;
 }
+
 //J-
 #include<stdio.h>
 int main()
@@ -85,6 +114,7 @@ int main()
         printf("No Multiples");
     return 0;
 }
+
 //K-
 #include <stdio.h>
 int main()
@@ -96,6 +126,7 @@ int main()
     printf("%d %d\n",min,max);
     return 0;
 }
+
 //L-
 #include<stdio.h>
 #include<string.h>
