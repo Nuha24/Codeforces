@@ -16,7 +16,6 @@ int sum(int x,int y)
 {
     return (x+y);
 }
-
 //B.
 #include<bits/stdc++.h>
 using namespace std;
