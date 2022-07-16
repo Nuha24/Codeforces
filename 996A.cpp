@@ -5,10 +5,13 @@ using namespace std;
 int main()
 {
     fastread();
-    int m,n,a,b;
-    cin>>m>>n>>a>>b;
-    if(m>n)
-        cout<<"First";
-    else
-        cout<<"Second";
+    ll n,a[]={100,20,10,5,1};
+    cin>>n;
+    ll s=0;
+    for(int i=0; i<5; i++)
+    {
+        s+=n/a[i];
+        n=n%a[i];
+    }
+    cout<<s;
 }
